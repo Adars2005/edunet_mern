@@ -1,0 +1,139 @@
+.article-page {
+    background-color: #f1f1f1;
+    min-height: 100vh;
+    padding: 20px 40px;
+    font-family: 'Arial', sans-serif;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.article-page:hover {
+    background-color: #e8e8e8;
+}
+
+.article-page p {
+    text-align: center;
+    font-size: 20px;
+    color: #007bff;
+    margin-top: 50px;
+    transition: color 0.3s ease;
+}
+
+.article-page p:hover {
+    color: #0056b3;
+}
+
+.article-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    transition: color 0.3s ease;
+}
+
+.article-title:hover {
+    color: #007bff;
+}
+
+.article-meta {
+    text-align: center;
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 30px;
+}
+
+.article-meta span {
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.article-meta span:hover {
+    color: #007bff;
+}
+
+.article-content {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #555;
+    margin: 0 10px;
+    padding: 0 20px;
+    max-width: 800px;
+    margin: 0 auto 50px;
+    transition: color 0.3s ease, max-height 0.3s ease;
+}
+
+.article-content:hover {
+    color: #333;
+}
+
+.related-articles-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 50px;
+    text-align: center;
+    transition: color 0.3s ease;
+}
+
+.related-articles-title:hover {
+    color: #007bff;
+}
+
+.related-articles-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.related-articles-list li {
+    margin: 10px 0;
+}
+
+.related-articles-list a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #555;
+    transition: color 0.3s ease;
+}
+
+.related-articles-list a:hover {
+    color: #007bff;
+}
+
+@media (max-width: 768px) {
+    .article-title {
+        font-size: 28px;
+    }
+
+    .article-content {
+        font-size: 16px;
+        padding: 0 15px;
+    }
+
+    .related-articles-title {
+        font-size: 20px;
+    }
+
+    .related-articles-list a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .article-title {
+        font-size: 24px;
+    }
+
+    .article-content {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+    .related-articles-title {
+        font-size: 18px;
+    }
+
+    .related-articles-list a {
+        font-size: 14px;
+    }
+}

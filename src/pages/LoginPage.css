@@ -1,0 +1,86 @@
+/* Scoped styles for LoginPage */
+.login-container {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container .container {
+    background: #007bff;
+    color: white;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-container .container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.login-container .container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.login-container form input {
+    padding: 12px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.login-container form input:focus {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    background-color: #dce4ff;
+}
+
+.login-container form button {
+    background: white;
+    color: #007bff;
+    padding: 12px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.login-container form button:hover {
+    background: #0056b3;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.login-container .link {
+    margin-top: 15px;
+}
+
+.login-container .link a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.login-container .link a:hover {
+    color: #dce4ff;
+}
